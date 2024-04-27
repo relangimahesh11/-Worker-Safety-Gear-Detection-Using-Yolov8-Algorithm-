@@ -1,3 +1,13 @@
+*This goal of the project is to detecting deviations and localizing safety gear worn by workers, such as helmets, vests, mask.
+*The primary goal is to ensure that workers are properly equipped with necessary safety gear.
+*Safety in Industries is paramount for protecting workers from accidents with heavy machinery and hazardous materials, ensuring compliance with regulations, and maintaining a culture of safety.
+*Traditional safety monitoring methods in industrial environments are time-consuming and prone to human error.
+*This is addressed by the project, “Worker safety gear detection using YOLOv8 algorithm” addresses this by using Deep Learning Capability
+to detect safety violations. 
+*Through our research currently considering YOLOv8 algorithm to detect safety care of industrial worker. YOLOv8 is mostly used for object
+detection in machine learning and deep learning.
+
+
 import cv2
 from ultralytics import YOLO
 
@@ -29,9 +39,5 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
         cap.release()
-![train_batch2](https://github.com/relangimahesh11/-Worker-Safety-Gear-Detection-Using-Yolov8-Algorithm-/assets/166863593/4c03f7ca-370e-4871-bc87-c0271ee8840d)
-![train_batch1](https://github.com/relangimahesh11/-Worker-Safety-Gear-Detection-Using-Yolov8-Algorithm-/assets/166863593/26ac8c9f-e972-4dec-811c-6a479ef0f14d)
-![train_batch0](https://github.com/relangimahesh11/-Worker-Safety-Gear-Detection-Using-Yolov8-Algorithm-/assets/166863593/dcf49f9c-b2fc-41e4-bee5-d8d34429f48f)
-![results](https://github.com/relangimahesh11/-Worker-Safety-Gear-Detection-Using-Yolov8-Algorithm-/assets/166863593/a61fd24c-0388-4486-88c6-a01bb65498cb)
-![R_curve](https://github.com/relangimahesh11/-Worker-Safety-Gear-Detection-Using-Yolov8-Algorithm-/assets/166863593/0012d6aa-07be-4018-af74-2ebaeb944ffd)
-
+![WhatsApp Image 2024-04-26 at 12 52 26_33dc6819](https://github.com/relangimahesh11/-Worker-Safety-Gear-Detection-Using-Yolov8-Algorithm-/assets/166863593/96b977a1-441e-4b76-a1ef-cda296255649)
+![WhatsApp Image 2024-04-26 at 12 51 01_aafdcf43](https://github.com/relangimahesh11/-Worker-Safety-Gear-Detection-Using-Yolov8-Algorithm-/assets/166863593/fe3f7508-36c8-451f-85bb-995cb912b337)
